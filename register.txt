@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Student Registration Page</title>
+</head>
+<body bgcolor="Lightgray" align="center">
+<br><br>
+<h1>Registration Form</h1><h4>
+<form><fieldset><legend><marquee><h2>Fill the Form</h2></marquee></legend><i>
+<br><br>
+<label>firstname</label>
+<input type="text" name="middlename" size="15"/>
+<br><br>
+<label >lastname</label>
+<input type="text" name="lastname" size="15"/>
+<br><br>
+<label>course</label>
+<select>
+<option value="Select">Select</option>
+<option value="BCA">BCA</option>
+<option value="BBA">BBA</option>
+<option value="B.Tech">B.Tech</option>
+<option value="MBA">MBA</option>
+<option value="MCA">MCA</option>
+<option value="M.Tech">M.Tech</option>
+</select>
+<br><br>
+<label>Branch</label>
+<select>
+<option value="Select">Select</option>
+<option value="CSE">CSE</option>
+<option value="EEE">EEE</option>
+<option value="ECE">ECE</option>
+<option value="CIVIL">CIVIL</option>
+<option value="MECH">MECH</option>
+</select>
+<br><br>
+<label>Gender</label><br>
+<input type="radio" id="male" name="gender"/>male<br>
+<input type="radio" id="female" name="gender"/>female<br>
+<input type="radio" id="others" name="gender"/>others<br>
+<br>
+<label>Phone</label>
+<input type="tel" name="country code" value="+91" size="3"/>
+<input type="tel" name="phone" size="10"/><br><br>
+Address<br>
+<textarea cols="80" rows="5" value="address">
+</textarea><br><br>
+Email
+<br>
+<input type="email" id="email" name="email"/><br>
+<br>
+Password
+<br>
+<input type="password" id="pass" name="pass"/><br><br>
+Retype Password<br>
+<input type="password" id="repass" name="repass"/><br>
+<br><br><b>
+<input type="button" value="SUBMIT" style= "width: 90px; height: 50px;"/></b></fieldset>
+</h4>
+</i>
+</form>
+</body>
+</html>
+
+
